@@ -1,0 +1,114 @@
+body {
+  background-color: #27282b;
+}
+
+.content {
+  padding: 2% 15%;
+  color: white;
+}
+
+.content p {
+  margin: 20px 0;
+  font-size: 120%;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+section {
+  margin: 40px 0;
+}
+
+.title > * {
+  display: inline;
+}
+
+.skills {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.skills > * {
+  margin: 5px;
+}
+
+.education {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.education > * {
+  margin: 5px;
+}
+
+.skillBox {
+  max-width: 130px;
+  border-radius: 0.5em;
+  text-align: center;
+  background-color: #4b4b4b;
+  transition: all 200ms ease-in-out;
+}
+
+.educationBox {
+  padding: 10px;
+  border-radius: 0.5em;
+  background-color: #00000000;
+  transition: all 200ms ease-in-out;
+}
+
+.skillBox:hover {
+  background-color: #777777;
+  color: black;
+  filter: drop-shadow(0 0 0.5em white);
+  transition: all 200ms ease-in-out;
+}
+
+.educationHeader > * {
+  display: inline;
+  margin-right: 5px;
+}
+
+.educationHeader img {
+  border-radius: 2em;
+  width: 40px;
+}
+
+.educationHeader .date {
+  border-radius: 1em;
+  background-color: #1a1a1a;
+  padding: 4px 7px;
+}
+
+.verticaLine {
+  height: 150%;
+  width: 1px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.educationContent {
+  display: flex;
+}
+
+.educationContent .vertical-line {
+  width: 40px;
+}
+
+.educationContent .content {
+  flex: 1;
+  padding: 5px;
+}
+
+.educationtitle {
+  color: #88ffcd;
+  font-size: 120%;
+  font-weight: 500;
+  font-family: serif;
+}
+
+.educationdesc {
+  padding: 2% 0 0 10%;
+}

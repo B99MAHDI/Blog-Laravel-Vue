@@ -1,0 +1,95 @@
+.night-mode {
+  color: white;
+  background-color: #27282b;
+}
+
+.light-mode {
+  color: white;
+  background-color: white;
+}
+
+.subscribeButtons button {
+  padding: 7px 15px;
+  outline: 0.5px solid;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.subscribeButtons button:hover {
+  background-color: #5c5c5c;
+}
+
+form {
+  margin: 20px;
+}
+
+.modalContent input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 0.2em;
+  font-size: 80%;
+  transition: transform 300ms ease-in-out;
+}
+
+.modalContent input:focus {
+  filter: drop-shadow(0 0 0.4rem rgba(9, 112, 209, 0.678));
+  transform: scale(1.02);
+  transition: transform 300ms ease-in-out;
+}
+
+.modalContent button {
+  width: 100%;
+}
+
+.modalContent {
+  border-radius: 0.5em;
+  background-color: whitesmoke;
+  margin: 5% auto;
+  padding: 20px;
+  width: 450px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.closeBtn {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes openModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes openModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Active Buttons */
+.active-navBtn {
+  text-decoration: none;
+  background-color: gray;
+  border-radius: 0.3em;
+  font-weight: 500;
+  font-size: 110%;
+}
