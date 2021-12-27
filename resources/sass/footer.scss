@@ -1,0 +1,155 @@
+
+#subscribeButton-footer{
+	padding:2px 10px;
+	box-shadow:-1px 1px 1px 1px rgb(14, 212, 14);
+	outline: none;
+	border:none;
+	background-color:rgb(14, 212, 14);
+	color:rgb(255, 255, 255);
+	font-weight:500;
+	border-radius:0.3em;
+	transition:all 200ms ease-in-out;
+} 
+#subscribeButton-footer:hover{
+    box-shadow:-4px 4px 0 0 whitesmoke;
+    transform:translate(3px , -3px);
+    transition:all 200ms ease-in-out;
+}
+
+
+/* Footer */
+.copyright{
+    margin:0 auto;
+    display:inline-block;
+    width:100%;
+}
+
+.copyright p{
+    display: inline;
+}
+
+footer{
+    // position:fixed;
+    bottom:0;
+    width:100%;
+    z-index:1;
+}
+.footer1{
+	bottom: 0;
+	margin-bottom: 0;
+	background-color: #27282b;
+}
+#brand-name{
+	color:white;
+	font-family:'Times New Roman', Times, serif;
+	font-weight:600;
+	font-size:250%;
+}
+
+.Contact-socialLinks a{
+	color:#ced4da;
+	font-size:120%;
+	font-family:helvetica,Helvetica,Arial,sans-serif;
+}
+
+/* Footer Container */
+.footer_container{
+    color:white;
+    font-size:80%;
+    background-color:#27282b ;
+    padding:7px;
+    text-align: center;
+}
+
+/* subscription modal */
+.subscribe_modal{
+    flex:1;
+}
+.subscribe_modal div{
+    float:right;
+    margin:auto auto; 
+    text-align:center;
+}
+#signinmodal,#subscribemodal{
+	text-align: center;
+	display:none;
+    position:fixed;
+    z-index: 10;
+    left: 0;
+    top:0;
+    height: 100%;
+    width:100%;
+    overflow: auto;
+    background-color:rgba(0, 0, 0, 0.527);
+    animation-name:openModal;
+    animation-duration:1s;
+}
+#subscribemodal p{
+	font-size:120%;
+	font-family:cursive;
+}
+
+/* Share Buttons - facebook + instagram + twitter + whatsapp + linkedin - */
+.btnSocialIcon img{
+	border-radius:2em;
+	width:30px;
+}
+.template-demo > .btn {
+    margin-right: 0.5rem;
+    width:40px;
+    padding:2px;
+}
+.template-demo {
+    margin-top: 1rem ;
+}
+
+// .btn-facebook {
+//     border: 1px solid #3b579d;
+//     color: #3b579d;
+// }
+.btn-facebook:hover {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+// .btn-twitter {
+//     border: 1px solid #2caae1;
+//     color: #2caae1;
+// }
+.btn-twitter:hover {
+    background: #2caae1;
+    color: #ffffff;
+}
+
+
+// .btn-linkedin {
+//     border: 1px solid #0177b5;
+//     color: #0177b5;
+// }
+.btn-linkedin:hover {
+    background: #0177b5;
+    color: #ffffff;
+}
+
+// .btn-instagram {
+//     border: 1px solid #dc4a38;
+//     color: #f8ccc6;
+// }
+.btn-instagram:hover {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+// .btn-whatsapp {
+//     border: 1px solid #46dc38;
+//     color: #c6f8ca;
+// }
+.btn-whatsapp:hover {
+    background: #46dc38;
+    color: #ffffff;
+}
+
+.hr{
+    height:1px;
+    background-color:#969696;
+}

@@ -1,0 +1,116 @@
+.navBar {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  background-color: #27282b;
+  padding: 7px;
+  z-index: 100;
+}
+
+#nav {
+  display: inline;
+}
+
+#nav > * {
+  display: inline;
+  vertical-align: middle;
+}
+
+#navlinks {
+  float: right;
+}
+
+#navlinks li, #logo-name {
+  cursor: pointer;
+}
+
+li {
+  padding: 5px 10px;
+  display: inline;
+  list-style-type: none;
+}
+
+#logo-name {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+
+#logo-name:hover {
+  opacity: 0.5;
+  transition: all 200ms ease-in-out;
+}
+
+#navlinks li:hover:not(#subscribe) {
+  background-color: gray;
+  border-radius: 0.3em;
+}
+
+#navlinks li a:not(.active-navBtn) {
+  text-decoration: none;
+  color: white;
+}
+
+#navlinks li a:hover:not(.active-navBtn) {
+  text-decoration: none;
+  color: white;
+}
+
+#subscribeBtn {
+  padding: 2px 10px;
+  border-radius: 1em;
+  border: 2px solid green;
+  color: #c9c9c9;
+  outline: none;
+  background-color: #27282b;
+}
+
+#subscribeBtn:hover {
+  background-color: #07bd07;
+  outline: none;
+  color: white;
+  filter: drop-shadow(0 0 0.4rem rgba(35, 167, 35, 0.678));
+}
+
+.menu_lines {
+  display: none;
+  cursor: pointer;
+  margin: 5px 0px 0px 5px;
+  width: 30px;
+}
+
+.menu_lines:hover .lines {
+  width: 35px;
+  transition: all 300ms ease-out;
+}
+
+.lines {
+  color: white;
+  transition: all 400ms ease-in;
+}
+
+.menu_lines {
+  padding: 10px;
+}
+
+.menu_lines div {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  margin: 4px 0;
+}
+
+.menu_lines div.one {
+  width: 35px;
+}
+
+.menu_lines div.two {
+  width: 25px;
+}
+
+.menu_lines div.three {
+  width: 30px;
+}
